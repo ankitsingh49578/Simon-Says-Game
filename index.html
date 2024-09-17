@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <audio class="startSound" src="./sounds/StartGame.mp3"></audio>
+        <audio class="endSound" src="./sounds/soundEndGame.mp3"></audio>
+        <audio class="tabSound" src="./sounds/tabsound.mp3"></audio>
+
+        <h1>Simon Says Game</h1>
+        
+        <form action="./assets/rules.html">
+            <button class="rule">GAME RULES</button>
+        </form>
+
+        <h2>Press any key to Start the game</h2>
+
+        <div class="boxes">
+            <div class="first-row">
+                <div class="btn red" type="button" id="red">1</div>
+                <div class="btn yellow" type="button" id="yellow">2</div>
+            </div>
+            <div class="second-row">
+                <div class="btn green" type="button" id="green">3</div>
+                <div class="btn purple" type="button" id="purple">4</div>
+            </div>
+        </div>
+        <h2 class="highscore"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

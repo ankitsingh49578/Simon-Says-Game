@@ -1,0 +1,87 @@
+*{
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+}
+.wrapper{
+    margin-top: 30px;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.red{
+    background-color: rgb(197, 42, 42);
+}
+.yellow{
+    background-color: rgb(202, 202, 56);
+}
+.green{
+    background-color: rgb(47, 182, 47);
+}
+.purple{
+    background-color: rgb(181, 52, 181);
+}
+
+.highscore{
+    margin-top: 10px;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: black;
+}
+
+
+audio{
+    display: none;
+}
+
+.rule{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid black;
+    font-size: medium;
+}
+
+.rule-wrapper{
+    padding: 1.5rem;
+}
+.rule-wrapper h2{
+    text-decoration: underline;
+}
+h1{
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+p{
+    line-height: 3rem;
+    font-size: 20px;
+}
